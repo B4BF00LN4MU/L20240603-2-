@@ -19,6 +19,8 @@ public:
 
 	bool IsRunning;
 	
+	void loadlevel(string MapFilename);
+
 	vector<AActor*> Actors;
 
 protected:
